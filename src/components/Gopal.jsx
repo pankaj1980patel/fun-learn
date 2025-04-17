@@ -5,11 +5,13 @@ const Gopal = () => {
 
   const B = { a: "asd" };
   for (let i = 0; i < A.length; i++) {
-    i = i + 2;
+        
+     
+       
   }
   console.log(A); // [3,4,5]
   A = [1, 2, 3];
-  A.map((a) => console.log("gopal map", a));
+  A.map((a) => );
 
   for (let a of A) {
     console.log("gopal for of", a);
